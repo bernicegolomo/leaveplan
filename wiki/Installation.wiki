@@ -1,0 +1,18 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+The script will need access to the OrangeHRM's MySQL database.
+
+
+= Details =
+
+Open the leaves.php file and configure these lines:<br><br>
+* $db_host = "localhost";   //Database host<br>
+* $db_user = "user";        //Database username<br>
+* $db_pwd = "secret";       //Database password<br>
+* $db_name = "orangeHRM";   //Database name<br>
+* $db_port = 3306;          //Database port<br>
+<br><br>
+
+Please keep in mind that only accounts that are <b>ENABLED</b> will be visible.
